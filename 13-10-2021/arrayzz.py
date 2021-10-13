@@ -1,3 +1,4 @@
+#swappin arrays
 a=[1,4,20,2]
 b=[5,9,6,3]
 count=0
