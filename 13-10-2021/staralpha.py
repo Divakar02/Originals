@@ -1,16 +1,12 @@
-# num=''
-# n=5
-# for i in range(5,0,-1):
-#     print('*'*(i-1),end='')
-#     num+=str(n+1-i)
-#     print(int(num))
+num=''
+n=int(input())
+for i in range(n,0,-1):
+    num += str(n + 1 - i)
+    print('*'*(i-1)+num)
+
+
 # j=100000
-a=5
-b=1
-while True:
-    if b!=6:
-        print(b)
-    b+=1
+
 
 
 

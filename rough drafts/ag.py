@@ -1,12 +1,24 @@
-num1=int(input())
-num2=int(input())
-list=[num1,num2]
-max=int(max(list))
-print(max)
-j=1
-for i in range(1,max):
-    if (num1%i==0) and (i%num2%i==0):
-        j*=i
-    if not((num1%i==0) and (i%num2%i==0)):
-        j
-print(j)
+# a=[]
+# n=4
+# count=0
+# for i in range(n):
+#      a.append([])
+#      for j in range(n):
+#          a[i].append(int(input("Enter Numbers for Matrix ",i)))
+#
+# for i in a:
+#     print(*i)
+
+for i in range(5):
+    for j in range(5):
+        if (i+j==4):
+            print(1)
+        if (i+j==5):
+            print(2)
+        if (i+j==6):
+            print(3)
+        if (i+j==7):
+            print(4)
+        else:
+            print('*')
+    print()
