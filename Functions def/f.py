@@ -15,3 +15,7 @@ F=open("C:\\Users\Divakar\Desktop\sample.csv","r")
 row=csv.reader(F)
 for i in row:
     print(i)
+
+welcome
+bhakefajofiaejdsnonojosdnd
+abcdefghijklmnopqrstuvwxyz-

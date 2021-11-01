@@ -1,1 +1,0 @@
-x=input("Enter the character")

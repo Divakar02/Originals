@@ -4,7 +4,7 @@
 # for i in range(n):
 #      a.append([])
 #      for j in range(n):
-#          a[i].append(int(input("Enter Numbers for Matrix ",i)))
+#          a[i].append(int(input("Enter Numbers for !! MATRIXX ",i)))
 #
 # for i in a:
 #     print(*i)
