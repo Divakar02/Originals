@@ -1,9 +1,16 @@
-sum1=0
-def demo(*a):
-    global sum1
-    sum1+=a[0]
-    print(sum1)
+import keyboard
 
-demo(2,3,4)
 
-n=input()
+x=['Hopeless',
+'Depressed',
+'Mournful',
+'Despairing',
+'Miserable',
+'Downcast',
+'Gloomy',
+'Heartbroken']
+import time
+time.sleep(5)
+for i in x:
+    keyboard.write(i)
+    keyboard.write('\n')`

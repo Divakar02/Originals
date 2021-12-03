@@ -1,4 +1,4 @@
-list = list(map(int, input("Enter comma separated values: ").split(",")))
+list = list(map(int, input("Enter comma separated values: ").split(" ")))
 print('Given Numbers    =>',list)
 # greater swap
 for b in range(len(list)):

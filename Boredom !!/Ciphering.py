@@ -1,4 +1,7 @@
-x=input().split(' ')
-x=list(map(int,x))
-y=list(set(x))
-print(y[-2])
+import time
+
+time.sleep(2)
+
+import pyautogui as p
+
+p.click
